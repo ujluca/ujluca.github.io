@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman';
+}
+
+header{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mountain-snow-mountain-range-mountaintop.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+    min-height: 400px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+    
+ul li{
+        display: inline-block;
+}
+    
+ul li a{
+        text-decoration:none;
+        color: floralwhite;
+        padding: 5px 30px;
+        border: 1px solid transparent;
+        transition: 0.5 ease;
+}
+    
+ul li a:hover {
+        background-color:darkgrey;
+        color: rgb(255, 255, 255);
+}
+    
+ul li.active a{
+        background-color:darkgray;
+        color:rgb(255, 255, 255);
+}
+    
+.logo img{
+        float: left;
+        width: 80px;
+        height: auto;
+}
+    
+.main{
+        max-width: 1200px;
+        margin: auto;
+}
+    
+.title{
+        position:absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+    
+.title h1{
+        color: powderblue;
+        font-size: 40px;
+}
+
+.section{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+
+.section h2{
+    color:whitesmoke;
+    font-size: 25px;
+    margin: 0.9%;
+    text-decoration: underline;
+}
+
+.section p{
+    color: whitesmoke;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 14%;
+}
+
+.section2{
+    position: absolute;
+    top: 37%;
+    left: 8%;
+}
+
+.section2 img{
+    float: none;
+    width: 700x;
+    height: 400px;
+    margin-left: 50%;
+}
+
+.resz{
+        position: absolute;
+        top: 15%;
+        left: 8%;  
+}
+.resz h1{
+        color: whitesmoke;
+        font-size: 25px;
+        margin: 0.9%;
+        text-decoration: underline;
+}
+
+.resz p{
+        margin-right: 18%;
+        color: gainsboro;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.reszecske {
+        position: absolute;
+        top: 32%;
+        left: 8%;  
+}
+
+.reszecske h2{
+        color: whitesmoke;
+    font-size: 20px;
+    margin: 0.9%;
+    text-decoration: underline;
+}
+
+.reszecske p{
+        margin-right: 15%;
+        color: gainsboro;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.reszkep {
+        position: absolute;
+        top: 52%;
+        left: 20%;
+}
+
+.reszkep img{
+        float: none;
+        width: 400x;
+        height: 300px;
+}
+
+.reszkep2 {
+        position: absolute;
+        top: 52%;
+        right: 20%;
+}
+
+.reszkep2 img{
+        float: none;
+        width: 400x;
+        height: 300px;
+}
+
+.szekcio{
+        position: absolute;
+        top: 20%;
+        left: 8%;
+}
+
+.szekcio h2{
+        color: whitesmoke;
+        font-size: 25px;
+        margin: 0.8%;
+        text-decoration: underline;
+}
+
+.szekcio p{
+        margin-right: 50%;
+        color: gainsboro;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.neumann {
+        position: absolute;
+        top: 42%;
+        left: 8%;
+}
+
+.neumann h3{
+        color: whitesmoke;
+        font-size: 20px;
+        margin: 0.8%;
+        text-decoration: underline;
+}
+
+.neumann p{
+        margin-right: 50%;
+        color: gainsboro;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.neumann2 {
+        position: absolute;
+        top: 61%;
+        left: 8%;
+}
+
+.neumann2 p{
+        margin-right: 50%;
+        color: gainsboro;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.szekcio2 {
+        position: absolute;
+        top: 22%;
+        right: 12%;
+}
+
+.szekcio2 img{
+        float: none;
+        width: 340x;
+        height: 340px;
+}
+
+.focim{
+        position:absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.focim h1{
+        color: powderblue;
+        font-size: 40px;
+        white-space: nowrap;
+}
+.sub {
+        position: absolute;
+        top: 25%;
+        left: 8%;
+}
+
+.sub h2 {
+        color: whitesmoke;
+        font-size: 25px;
+        margin: 0.8%;
+        text-decoration: underline; 
+}
+
+.sub p{
+        margin-right: 60%;
+        text-align:justify;
+        color: gainsboro;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sub2 {
+        position: absolute;
+        top: 52%;
+        left: 8%;
+}
+
+.sub2 h3{
+        color: whitesmoke;
+        font-size: 20px;
+        margin: 0.8%;
+        text-decoration: underline;
+}
+
+
+.sub2 ul{
+        left: 8%;
+}
+
+.sub2 ul li{
+        display: list-item;
+        color: gainsboro;
+}
+
+.sub3 {
+        position: absolute;
+        top: 67%;
+        left: 50%;
+}
+
+
+.sub3 p{
+        margin-right: 19%;
+        color: gainsboro;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+.kep {
+        position: absolute;
+        top: 27%;
+        right: 12%;
+}
+
+.kep img{
+        float: none;
+        width: 240x;
+        height: 240px;
+}
+

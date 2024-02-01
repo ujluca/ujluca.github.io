@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman';
+}
+
+header{
+        background-image: url(white-plain-background-cxs6kmx3wgbnzz0x.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+    
+ul li{
+    display: inline-block;
+}
+    
+ul li a{
+        text-decoration:none;
+        color: black;
+        padding: 5px 30px;
+        border: 1px solid transparent;
+        transition: 0.5 ease;
+}
+    
+ul li a:hover {
+        background-color:darkgrey;
+        color: black;
+}
+    
+ul li.active a{
+        background-color:darkgray;
+        color:black;
+}
+    
+.logo img{
+        float: left;
+        width: 80px;
+        height: auto;
+}
+    
+.main{
+        max-width: 1200px;
+        margin: auto;
+}
+    
+.title{
+        position:absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+    
+.title h1{
+        color: black;
+        font-size: 35px;
+        text-decoration: solid;
+}
+
+.szekcio{
+    position: absolute;
+    top: 23%;
+    left: 15%;
+}
+
+.szekcio h1{
+    color: black;
+    font-size: 25px;
+    margin-left: 0%;
+    text-decoration:underline;
+}
+
+
+
+.szekcio ul li{
+    display: list-item;
+}
+
+.szeksön{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.szeksön h2{
+    color: black;
+    font-size: 25px;
+    margin-left: 0%;
+    text-decoration:underline;
+}
+
+
+.szeksön ul li{
+    display: list-item;
+}
+
+.szeksen{
+    position: absolute;
+    top: 23%;
+    right: 8%;
+}
+
+.szeksen h3{
+    color: black;
+    font-size: 25px;
+    margin-left: 0%;
+    text-decoration:underline;
+}
+
+
+.szeksen ul li{
+    display: list-item;
+}
+
+.zekcion {
+    position: absolute;
+    top: 55%;
+    left: 58%;
+}
+
+.zekcion h4{
+    color: black;
+    font-size: 25px;
+    text-decoration:underline;
+}
+
+
+.zekcion ul li{
+    display: list-item;
+}
+
+
